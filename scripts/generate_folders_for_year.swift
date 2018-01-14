@@ -40,9 +40,10 @@ do {
   let yearDirectoryPath = sourceDirectoryPath + "\(year)/"
   try FileManager.default.createDirectory(atPath: yearDirectoryPath, withIntermediateDirectories: false, attributes: nil)
   
-  for month in months {
+  for (index, month) in months.enumerated() {
     
-    let monthDirectoryPath = yearDirectoryPath + "\(month)/"
+    let monthIndexString = String(format: "%02d", index + 1) // padded (e.g. 01, 02, etc.)
+    let monthDirectoryPath = yearDirectoryPath + "\(monthIndexString)-\(month)/"
     try FileManager.default.createDirectory(atPath: monthDirectoryPath, withIntermediateDirectories: false, attributes: nil)
 
     let readmeContents = """
