@@ -31,6 +31,13 @@ let months = ["January", "February", "March", "April", "May", "June", "July", "A
 
 let currentDirectoryPath = FileManager.default.currentDirectoryPath
 
+let readmeTemplatePath = currentDirectoryPath + "/README_TEMPLATE.txt"
+let readmeTemplateURL = URL(fileURLWithPath: readmeTemplatePath)
+guard let readmeTemplate = try? String(contentsOf: readmeTemplateURL, encoding: .utf8) else {
+    print("Unable to get contents of README_TEMPLATE.txt (path: \(readmeTemplatePath))")
+    exit(EXIT_FAILURE)
+}
+
 let rangeToRemove = currentDirectoryPath.range(of: "scripts")!
 var sourceDirectoryPath = currentDirectoryPath
 sourceDirectoryPath.removeSubrange(rangeToRemove)
@@ -46,21 +53,13 @@ do {
     let monthDirectoryPath = yearDirectoryPath + "\(monthIndexString)-\(month)/"
     try FileManager.default.createDirectory(atPath: monthDirectoryPath, withIntermediateDirectories: false, attributes: nil)
 
-    let readmeContents = """
-	# Nashville CocoaHeads Presentation for \(month) \(year)
-
-	Topic:
-
-	Description:
-
-	Presenter:
-
-	Bio:
-
-	""".data(using: .utf8)!
-
+    var monthReadme = readmeTemplate
+    monthReadme = monthReadme.replacingOccurrences(of: "${MONTH}", with: month)
+    monthReadme = monthReadme.replacingOccurrences(of: "${YEAR}", with: "\(year)")
+    
+    let monthReadmeContents = monthReadme.data(using: .utf8)!
 	let readmePath = monthDirectoryPath + "README.md"
-	FileManager.default.createFile(atPath: readmePath, contents: readmeContents, attributes: nil)
+	FileManager.default.createFile(atPath: readmePath, contents: monthReadmeContents, attributes: nil)
   }
 }
 catch let error {
