@@ -1,0 +1,3 @@
+[submodule "2017/03-March/parse-server-setup-guide"]
+	path = 2017/03-March/parse-server-setup-guide
+	url = git@github.com:addisonwebb/parse-server-setup-guide.git
