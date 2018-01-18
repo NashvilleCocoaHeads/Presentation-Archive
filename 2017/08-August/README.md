@@ -1,9 +1,9 @@
 # Nashville CocoaHeads Presentation for August 2017
 
-Topic:
+### Topic:
 
-Description:
+### Description:
 
-Presenter:
+### Presenter:
 
-Bio:
+### Bio:
