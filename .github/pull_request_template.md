@@ -7,4 +7,4 @@ Checklist:
 - [ ] Added presentation materials (if any).
 - [ ] Added relevant notes (if any).
 
-Please contact @blakemerryman or @addisonwebb if you have any issues.
+Please contact the @NashvilleCocoaHeads/organizers if you have any questions.
