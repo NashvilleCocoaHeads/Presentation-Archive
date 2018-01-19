@@ -7,4 +7,4 @@ Checklist:
 - [ ] Added presentation materials (if any).
 - [ ] Added relevant notes (if any).
 
-Please contact the @NashvilleCocoaHeads/organizers if you have any questions.
+Please contact the [Nashville CocoaHeads Organizers](https://github.com/orgs/NashvilleCocoaHeads/teams/organizers) if you have any questions.
