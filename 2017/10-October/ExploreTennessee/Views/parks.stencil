@@ -1,0 +1,7 @@
+<h1>Tennessee State Parks</h1>
+
+<ul>
+{% for park in parks %}
+	<li><a href="{{ park.website }}">{{ park.name }}</a></li>
+{% endfor %}
+</ul>
