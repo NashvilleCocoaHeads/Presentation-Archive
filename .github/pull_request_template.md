@@ -4,7 +4,8 @@ Checklist:
 
 - [ ] Updated this month's README.md file (e.g. `/01-January/README.md`)
 - [ ] Added source code (if any).
-- [ ] Added presentation materials (if any).
-- [ ] Added relevant notes (if any).
+- [ ] Added presentation materials as PDF (if any).
+- [ ] Added relevant notes as plain text or PDF (if any).
+- [ ] Added other relevant materials (if any).
 
 Please contact the [Nashville CocoaHeads Organizers](https://github.com/orgs/NashvilleCocoaHeads/teams/organizers) if you have any questions.
