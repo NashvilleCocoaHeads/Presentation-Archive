@@ -7,7 +7,7 @@ Building a Data Structure in Swift
 Learn about Swift data structures as we build our own from scratch! We’ll explore language features such as associated types and protocol extensions that will help us along the way. We’ll also touch on building and testing the project on Linux. By the end, we’ll have created a new data structure you may find useful in any of your Swift projects.
 
 ### Source Code:
-Learn about Swift data structures as we build our own from scratch! We’ll explore language features such as associated types and protocol extensions that will help us along the way. We’ll also touch on building and testing the project on Linux. By the end, we’ll have created a new data structure you may find useful in any of your Swift projects.
+Learn about Swift data structures as we build our own from scratch! We’ll explore language features such as associated types and protocol extensions that will help us along the way. We’ll also touch on building and testing the project on Linux. By the end, we’ll have created a new data structure you may find useful in any of your Swift projects. [Check out our fork of the source code here](https://github.com/NashvilleCocoaHeads/Configurate).
 
 ### Presenter:
 Patrick Goley
