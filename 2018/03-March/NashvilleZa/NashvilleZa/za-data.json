@@ -1,0 +1,50 @@
+[
+  {
+    "latitude": 36.177196,
+    "longitude": -86.750438,
+    "name": "Five Points Pizza",
+    "rating": 5
+  },
+  {
+    "latitude": 36.161238,
+    "longitude": -86.775878,
+    "name": "Luigi's City Pizza",
+    "rating": 3
+  },
+  {
+    "latitude": 36.166786,
+    "longitude": -86.767990,
+    "name": "Papa Johns",
+    "rating": 3
+  },
+  {
+    "latitude": 36.151734,
+    "longitude": -86.780040,
+    "name": "Night Train Pizza",
+    "rating": 5
+  },
+  {
+    "latitude": 36.153062,
+    "longitude": -86.790537,
+    "name": "Little Chicago Pizzeria",
+    "rating": 3
+  },
+  {
+    "latitude": 36.163647,
+    "longitude": -86.780069,
+    "name": "Vinny's Pizza",
+    "rating": 3
+  },
+  {
+    "latitude": 36.164354,
+    "longitude": -86.780004,
+    "name": "Manny's House of Pizza",
+    "rating": 5
+  },
+  {
+    "latitude": 36.199149,
+    "longitude": -86.740257,
+    "name": "Pizza Hut",
+    "rating": 2
+  }
+]
